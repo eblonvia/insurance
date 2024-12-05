@@ -12,5 +12,6 @@ public class QuotationController
     //TODO Le controller doit appeler le UseCase : GetQuotation
     //TODO La classe GetQuotation doit utiliser QuotationService pour réaliser le travail
     //TODO Enregistrer la quotation en base de donnnée. 
+    // Equipe Aboudramane - Désiré
     //TODO : @Emmanuel BLONVIA
 }

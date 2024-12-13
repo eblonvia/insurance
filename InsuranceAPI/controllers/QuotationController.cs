@@ -1,10 +1,18 @@
+using InsuranceAPI.controllers.dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace InsuranceAPI.controllers;
 [ApiController]
-[Route("/quotes")]
+[Route("quotes")]
 public class QuotationController
 {
+    [HttpGet]
+    [Route("simulation")]
+    public ActionResult<Quotation> CalculateQuotation([FromBody]QuotationRequest quotationRequest)
+    {
+        
+        return "Hello";
+    }
     
     
     //TODO faire la méthode d'entrée

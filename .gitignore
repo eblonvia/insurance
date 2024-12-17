@@ -1,2 +1,16 @@
 
 /.idea/
+**/bin/*
+**/obj/*
+/InsuranceAPI/obj/
+/InsuranceAPI/bin/
+
+/InsuranceDomain/obj/
+/InsuranceDomain/bin/
+
+
+/InsuranceUseCases/obj/
+/InsuranceUseCases/bin/
+
+/InsuranceInfrastructure/obj/*
+/InsuranceInfrastructure/bin/*

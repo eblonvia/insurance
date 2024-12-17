@@ -1,6 +1,6 @@
 @InsuranceAPI_HostAddress = http://localhost:5104
 
-GET {{InsuranceAPI_HostAddress}}/weatherforecast/
+GET {{InsuranceAPI_HostAddress}}/quotes/simuation
 Accept: application/json
 
 ###

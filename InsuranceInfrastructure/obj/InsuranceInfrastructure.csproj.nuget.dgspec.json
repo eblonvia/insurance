@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/eblonvia/dev/formation/insurance/InsuranceInfrastructure/InsuranceInfrastructure.csproj": {}
+    "C:\\Users\\HP\\insurance\\InsuranceInfrastructure\\InsuranceInfrastructure.csproj": {}
   },
   "projects": {
-    "/Users/eblonvia/dev/formation/insurance/InsuranceInfrastructure/InsuranceInfrastructure.csproj": {
+    "C:\\Users\\HP\\insurance\\InsuranceInfrastructure\\InsuranceInfrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/eblonvia/dev/formation/insurance/InsuranceInfrastructure/InsuranceInfrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\insurance\\InsuranceInfrastructure\\InsuranceInfrastructure.csproj",
         "projectName": "InsuranceInfrastructure",
-        "projectPath": "/Users/eblonvia/dev/formation/insurance/InsuranceInfrastructure/InsuranceInfrastructure.csproj",
-        "packagesPath": "/Users/eblonvia/.nuget/packages/",
-        "outputPath": "/Users/eblonvia/dev/formation/insurance/InsuranceInfrastructure/obj/",
+        "projectPath": "C:\\Users\\HP\\insurance\\InsuranceInfrastructure\\InsuranceInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\insurance\\InsuranceInfrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/eblonvia/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +49,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
